@@ -1,0 +1,116 @@
+html, body, h1, h2, h3, p, ul, li, a, button {
+	font-size: 100%;
+	font: inherit;
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+h1 {
+	font-size: 30px;
+	color: #ffffff;
+	padding: 20px 0 5px 30px;
+}
+h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #056881;
+	padding: 10px 0 5px 0;
+}
+h3 {
+	font-weight: bold;
+	padding: 3px 0 0 0;
+}
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	margin: 0 20px 0 20px;
+}
+p {
+	padding: 0;
+	text-decoration: none;
+}
+a:link {
+	color: #056881;
+	text-decoration: none;
+}
+.header a:link {
+	font-size: 18px;
+}
+ul li {
+	list-style: square inside;
+}
+aside {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #66abbc;
+	padding: 3px 7px 3px 7px;
+	margin: 5px 0 5px 0;
+	float: right;
+	margin-left: 10px;
+	padding: 0 0 -10px 0;
+	}
+button {
+	color: #66abbc;
+	background-color: #000000;
+	font-size: 20px;
+	border: none;
+	float: right;
+	margin-right: 100px;
+}
+button:focus {
+	outline: none;
+}
+//clearfix
+.group.before, .group.after {
+		content: "";
+		display: table;
+}
+.group.after {
+		clear: both;
+}
+.group {
+		zoom: 1;
+}
+.header {
+	font-family: 'Trebuchet MS', sans-serif;
+	background-color: #000000;
+	padding-bottom: 20px;
+}
+.contactinfo {
+	font-size: 16px;
+	line-height: 22px;
+	color: #ffffff;
+	padding: 0 0 5px 30px;
+}
+.bkimage {
+	background-image: url(pattern.jpg);
+}
+.resumecopy {
+	display: none;
+	margin: 0 0 0 325px;
+	padding: 20px;
+	background-color: #ffffff;
+	opacity: .85;
+}
+.jobtitle {
+	font-weight: bold;
+	padding-left: 10px;
+}
+.jobtime {
+	font-weight: bold;
+	float: right;
+	padding-right: 10px;
+}
+.jobcompany {
+	padding-left: 10px;
+}
+.jobheaderbox {
+  font-size: 16px;
+	background-color: #bcebf7;
+	padding: 5px 0 5px 0;
+	margin: 5px 0 0 0;
+}
+aside, button, h2, .contactinfo, .jobtitle, .jobtime, .jobcompany {
+	font-family: 'Trebuchet MS', sans-serif;
+}
